@@ -1,0 +1,51 @@
+DELIMITER //
+CREATE PROCEDURE InsertArtist(
+    IN p_ArtistID INT,
+    IN p_ArtistName VARCHAR(100),
+    IN p_Genre VARCHAR(50),
+    IN p_ArtistEmail VARCHAR(100)
+)
+BEGIN
+    INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail)
+    VALUES (p_ArtistID, p_ArtistName, p_Genre, p_ArtistEmail);
+END //
+
+DELIMITER ;
+
+
+DELIMITER //
+CREATE PROCEDURE InsertEvent(
+    IN p_EventID INT,
+    IN p_OrganizerID INT,
+    IN p_ArtistID INT,
+    IN p_EventName VARCHAR(100),
+    IN p_EventDate VARCHAR(30),
+    IN p_EventVenue VARCHAR(100)
+)
+BEGIN
+    INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue)
+    VALUES (p_EventID, p_OrganizerID, p_ArtistID, p_EventName, p_EventDate, p_EventVenue);
+END //
+
+DELIMITER ;
+
+
+DELIMITER //
+
+CREATE PROCEDURE InsertRegistration(
+    IN p_RegID INT,
+    IN p_UserID INT,
+    IN p_EventID INT,
+    IN p_RegDate VARCHAR(30),
+    IN p_EventName VARCHAR(100),
+    IN p_EventDate VARCHAR(30),
+    IN p_EventVenue VARCHAR(100),
+    IN p_SeatNumber INT
+)
+BEGIN
+    INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber)
+    VALUES (p_RegID, p_UserID, p_EventID, p_RegDate, p_EventName, p_EventDate, p_EventVenue, p_SeatNumber);
+END //
+
+DELIMITER ;
+

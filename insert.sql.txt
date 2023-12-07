@@ -1,0 +1,107 @@
+
+INSERT INTO Artists (ArtistID,ArtistName, Genre, ArtistEmail) VALUES(4785,'Arijit Singh', 'Pop', 'Arijit1@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4786, 'Sunidhi Chauhan', 'Pop', 'Sunidhi4@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4787, 'A.R. Rehman', 'Classical', 'AR5@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4788, 'Sonu Nigam', 'Bollywood', 'Sonu6@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4789, 'Shankar Mahadevan', 'Fusion', 'Shankar7@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4790, 'Shreya Ghoshal', 'Indian Pop', 'Shreya8@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4791, 'Amit Trivedi', 'Bollywood', 'Amit9@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4792, 'Badshah', 'Hip Hop', 'Badshah10@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4793, 'Neha Kakkar', 'Pop', 'Neha11@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4794, 'Atif Aslam', 'Pop', 'Atif12@gmail.com');
+INSERT INTO Artists (ArtistID, ArtistName, Genre, ArtistEmail) VALUES (4795, 'Sunil Chaila Bihari', 'Bhojpuri', 'Sunil13@gmail.com');
+
+
+
+INSERT INTO Organizers (OrgName, OrgEmailId)  VALUES (' Dream Events Co.', 'info@dreameventsco.com');
+INSERT INTO Organizers (OrgName, OrgEmailId)  VALUES ('Radiant Productions', 'radiantproductions@email.com');
+INSERT INTO Organizers (OrgName, OrgEmailId)  VALUES ('Harmony Concerts', 'harmonyconcerts@email.com');
+INSERT INTO Organizers (OrgName, OrgEmailId)  VALUES ('Radiant Productions', 'radiantproductions@email.com');
+INSERT INTO Organizers (OrgName, OrgEmailId)  VALUES ('Spectrum Event Planners', 'spectrumevents@example.com');
+INSERT INTO Organizers (OrgName, OrgEmailId) VALUES ('Spectrum Event Planners', 'spectrumevents@example.com');
+INSERT INTO Organizers (OrgName, OrgEmailId) VALUES ('Elite Productions', 'eliteproductions@example.com');
+INSERT INTO Organizers (OrgName, OrgEmailId) VALUES ('Creative Events Management', 'creativeevents@example.com');
+INSERT INTO Organizers (OrgName, OrgEmailId) VALUES ('Harmony Entertainment', 'harmonyentertainment@example.com');
+INSERT INTO Organizers (OrgName, OrgEmailId) VALUES ('Starlight Events', 'starlightevents@example.com');
+
+
+
+
+
+
+
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Amit Patel', 'amit.patel@gmail.com', 9876543210);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Priya Sharma', 'priya.sharma@gmail.com', 8765432109);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Raj Singh', 'raj.singh@gmail.com', 7654321098);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Sanya Kapoor', 'sanya.kapoor@gmail.com', 6543210987);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Ananya Gupta', 'ananya.gupta@gmail.com', 5432109876);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Vikram Malhotra', 'vikram.malhotra@gmail.com', 4321098765);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Neha Verma', 'neha.verma@gmail.com', 3210987654);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Rahul Kapoor', 'rahul.kapoor@gmail.com', 2109876543);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Kavita Reddy', 'kavita.reddy@gmail.com', 9876543210);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Prakash Sharma', 'prakash.sharma@gmail.com', 8765432109);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Nina Kapoor', 'nina.kapoor@gmail.com', 7654321098);
+INSERT INTO Users (UserName, UserEmail, UserMobNO) VALUES ('Aryan Mehra', 'aryan.mehra@gmail.com', 6543210987);
+
+
+
+
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (1, 1, 4785, 'Bollywood Beats Night', '2023-12-15', 'Mumbai Hall');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (2, 2, 4786, 'Sufi Fusion Evening', '2023-12-20', 'Delhi Auditorium');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (3, 3, 4787, 'Classical Melodies Showcase', '2023-12-25', 'Jaipur Palace');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (4, 4, 4788, 'Bollywood Night with Sonu Nigam', '2023-12-30', 'Hyderabad Gardens');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (5, 1, 4790, 'Pop Extravaganza Night', '2024-01-05', 'Chennai Stadium');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (6, 2, 4791, 'Bollywood Blast Concert', '2024-01-10', 'Kolkata Arena');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue)  VALUES (7, 3, 4792, 'Hip Hop Hustle Party', '2024-01-15', 'Bangalore Lounge');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue)  VALUES (8, 4, 4793, 'Magical Night with Neha Kakkar', '2024-01-20', 'Pune Pavilion');
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue) VALUES (9, 1, 4785, 'Arijit Singh Live in Concert', '2024-02-01', 'Mumbai Arena');
+
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue)  VALUES (13, 5, 4785, 'Romantic Night with Arijit', '2024-02-20', 'Chennai Pavilion');
+
+INSERT INTO Events (EventID, OrganizerID, ArtistID, EventName, EventDate, EventVenue)  VALUES (15, 7, 4785, 'Arijit Magic: From Bollywood to Beyond', '2024-03-01', 'Bangalore Hall');
+
+
+
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (1, 1, 1, '2023-12-10', 'Bollywood Beats Night', '2023-12-15', 'Mumbai Hall', 101);
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (2, 2, 2, '2023-12-12', 'Sufi Fusion Evening', '2023-12-20', 'Delhi Auditorium', 202);
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (3, 3, 3, '2023-12-15', 'Classical Melodies Showcase', '2023-12-25', 'Jaipur Palace', 303);
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (4, 4, 4, '2023-12-18', 'Bollywood Night with Sonu Nigam', '2023-12-30', 'Hyderabad Gardens', 404);
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (5, 3, 5, '2024-01-02', 'Pop Extravaganza Night', '2024-01-05', 'Chennai Stadium', 505);
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (6, 3, 6, '2024-01-05', 'Bollywood Blast Concert', '2024-01-10', 'Kolkata Arena', 606);
+
+INSERT INTO Registration (RegID, UserID, EventID, RegDate, EventName, EventDate, EventVenue, SeatNumber) 
+VALUES (7, 3, 7, '2024-01-08', 'Hip Hop Hustle Party', '2024-01-15', 'Bangalore Lounge', 707);
+
+
+
+
+INSERT INTO Payment (PaymentID, UserID, EventID, EventName, UserName, TicketPrice, PaymentDate) 
+VALUES (1112, 1, 1, 'Bollywood Beats Night', 'Amit Patel', 150, '2023-12-16');
+
+INSERT INTO Payment (PaymentID, UserID, EventID, EventName, UserName, TicketPrice, PaymentDate) 
+VALUES (2326, 2, 2, 'Sufi Fusion Evening', 'Priya Sharma', 200, '2023-12-21');
+
+INSERT INTO Payment (PaymentID, UserID, EventID, EventName, UserName, TicketPrice, PaymentDate) 
+VALUES (3214, 3, 3, 'Classical Melodies Showcase', 'Raj Singh', 180, '2023-12-26');
+
+
+INSERT INTO Payment (PaymentID, UserID, EventID, EventName, UserName, TicketPrice, PaymentDate) 
+VALUES (5125, 3, 5, 'Pop Extravaganza Night', 'Neha Verma', 180, '2024-01-03');
+
+INSERT INTO Payment (PaymentID, UserID, EventID, EventName, UserName, TicketPrice, PaymentDate) 
+VALUES (9254, 3, 6, 'Bollywood Blast Concert', 'Neha Verma', 200, '2024-01-08');
+
+INSERT INTO Payment (PaymentID, UserID, EventID, EventName, UserName, TicketPrice, PaymentDate) 
+VALUES (1314, 3, 7, 'Hip Hop Hustle Party', 'Neha Verma', 150, '2024-01-13');

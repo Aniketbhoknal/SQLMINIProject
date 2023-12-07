@@ -1,0 +1,20 @@
+DELIMITER //
+CREATE TRIGGER DeleteRegistrationsOnEventDelete
+BEFORE DELETE ON Events
+FOR EACH ROW
+BEGIN
+    DELETE FROM Registration WHERE Registration.EventID = OLD.EventID;
+END;
+//
+DELIMITER ;
+
+
+DELIMITER //
+CREATE TRIGGER DeleteRegistrationsOnEventDelete
+BEFORE DELETE ON Events
+FOR EACH ROW
+BEGIN
+    DELETE FROM Registration WHERE Registration.EventID = OLD.EventID;
+END;
+//
+DELIMITER ;

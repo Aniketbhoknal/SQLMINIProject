@@ -1,0 +1,18 @@
+CALL InsertArtist(4796, 'Adele', 'Pop', 'adele@gmail.com');
+
+CALL InsertArtist(4797, 'Ed Sheeraaan', 'Popp', 'edsheeran@gmail.com');
+
+
+
+CALL InsertEvent(10, 5, 4798, 'Rock Concert', '2024-04-01', 'Pune Stadium');
+
+CALL InsertEvent(11, 6, 4799, 'Bollywood Dance Night', '2024-04-10', 'Delhi Club');
+
+
+
+
+CALL InsertRegistration(20, 4, 8, '2024-02-15', 'Magical Night with Neha Kakkar', '2024-02-20', 'Chennai Pavilion', 303);
+
+
+CALL InsertRegistration(21, 5, 9, '2024-02-20', 'Arijit Singh Live in Concert', '2024-03-01', 'Bangalore Hall', 404);
+
